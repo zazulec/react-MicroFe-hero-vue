@@ -1,0 +1,32 @@
+{
+  "name": "hero",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "webpack serve --config webpack.config.js",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vue/compiler-sfc": "^3.2.41",
+    "babel-preset-vue": "^2.0.2",
+    "vue": "^3.2.41"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.19.6",
+    "@babel/preset-env": "^7.19.4",
+    "@vitejs/plugin-vue": "^3.1.2",
+    "@vitejs/plugin-vue-jsx": "^2.0.1",
+    "@vue/babel-plugin-jsx": "^1.1.1",
+    "@webpack-cli/generators": "^2.5.0",
+    "babel-loader": "^9.0.1",
+    "css-loader": "^6.7.1",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
+    "vite": "^3.1.8",
+    "vue-loader": "^17.0.1",
+    "vue-template-compiler": "^2.7.13",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.1"
+  }
+}
